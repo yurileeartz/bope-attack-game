@@ -1,6 +1,10 @@
 # 💀 Bope Attack - Special Edition
 
-A 2D top-down tactical survival shooter developed entirely in Python. 
+A 2D top-down tactical survival shooter developed entirely in Python. .
+
+<br>
+
+![Bope Attack Gameplay](bopeattackGIF.gif)
 
 In this project, the player takes on the role of a tactical operator with the objective of clearing areas dominated by criminals. The game features level progression, boss fights, and dynamic difficulty mechanics.
 
