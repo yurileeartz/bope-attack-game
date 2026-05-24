@@ -12,6 +12,23 @@ In this project, the player takes on the role of a tactical operator with the ob
 
 *(Note: The source code for this project is kept private due to commercialization plans and image usage rights, but the architecture and technical solutions are documented below).*
 
+<br>
+
+### 🖥️ Tech Stack & Tools
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Pygame](https://img.shields.io/badge/pygame-ED2024?style=for-the-badge&logo=python&logoColor=white)
+![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
+![CorelDraw](https://img.shields.io/badge/CorelDraw-00A859?style=for-the-badge&logo=Corel&logoColor=white)
+
+<br>
+
+## 🛠️ Technical Features & Architecture
+
+* **Modular State Machine (AI):** Engineered a custom Finite State Machine (FSM) to control enemy AI behaviors, managing smooth transitions between patrolling, tracking, and engaging the player.
+* **Sprite Sheet Animation Pipeline:** Developed an efficient sprite-cutting logic to parse and cache animation frames into Pygame surfaces, reducing runtime CPU overhead.
+* **Collision Matrix Optimization:** Implemented strict box-collision layers to accurately detect bullet impacts, environmental boundaries, and player health damage grids without dropping frame rates.
+* **Persistent Scoring & State:** Integrated local data management to store high scores, player progress, and custom session settings.
+
 ---
 
 ## ⚙️ Tech Stack
